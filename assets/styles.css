@@ -1,0 +1,49 @@
+.box {
+    max-width: 300px;
+    max-height: 150px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    
+    
+    
+}
+
+.item{
+    background-color: aqua;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    max-width: 50px;
+}
+
+.direction-row {
+    flex-direction: row;
+}
+
+.direction-rowrv {
+    flex-direction: row-reverse;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.direction-columnrv {
+    flex-direction: column-reverse;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+.wrap {
+    flex-wrap: wrap;
+
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+
+
